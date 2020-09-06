@@ -1,15 +1,58 @@
-h1{
+* {
+    margin-top: 0px;
+}
+
+h1 {
     text-align: center;
-    border: 1px solid #000;
     height: 200px;
     line-height: 200px;
 }
-li{
+
+ul {
+    margin: 0px;
     list-style: none;
-    border: 1px solid #000;
     position: relative;
 }
-ul{
+
+li {
     display: inline-block;
-    margin: 30px 150px;
+    margin: auto;
+    text-align: center;
+    line-height: 70px;
+    width: 370px;
+    height: 70px;
+    margin: 30px 10px;
+}
+
+/*##################### menu #####################*/
+.menu {
+    color: black;
+}
+
+.menu li {
+    text-align: center;
+}
+
+.menu li:hover {
+    color: white;
+    background-color: black;
+}
+
+/*##################### introduce #####################*/
+.introduce {
+    border: 1px solid #000;
+    dislay: inline-block;
+}
+
+.think {
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid #000;
+    display: inline-block;
+    line-height: 200px;
+}
+
+/*##################### skills #####################*/
+.skills li {
+    display: block;
 }
