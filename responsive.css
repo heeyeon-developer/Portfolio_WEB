@@ -1,13 +1,14 @@
 @media (max-width: 768px){
 
     /*##################### top #####################*/
-    .menu{
-        width: unset;
+    .top{
+        position: fixed;
+        z-index: 1;
     }
     .title{
        margin: 7px;
     }
-    .menu li{
+    .menu a{
         width: 80px;
         height: 30px;
         padding: 0;
