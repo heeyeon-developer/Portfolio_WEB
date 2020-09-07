@@ -68,7 +68,7 @@ li {
 
 .introduce {
     overflow: hidden;
-    background-image: url('/portfolio_FE/imges/laptop.png');
+    background-image: url('https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/laptop.png');
     background-position: center;
     padding-top: 100px;
     margin: 0 auto;
