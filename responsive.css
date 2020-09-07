@@ -6,12 +6,14 @@
         z-index: 1;
     }
     .title{
-       margin: 7px;
+        padding-left: 100px;
+        direction: bold;
+        margin: 7px 0;
     }
     .menu a{
         width: 80px;
         height: 30px;
-        padding: 0;
+        padding-left: 15px;
         text-align: center;
         line-height: 30px;
         margin: 2px;
@@ -19,6 +21,13 @@
 
     /*##################### introduce #####################*/
     .introduce{
-        padding-top: 80px;
+        padding-top: 75px;
+        width:auto;
+    }
+    .wrap {
+        background-size:contain;
+        background-position: center;
+        width: 100vh;
+        height: 100vh;
     }
 }

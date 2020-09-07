@@ -68,14 +68,17 @@ li {
 
 .introduce {
     overflow: hidden;
-    background-image: url('https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/laptop.png');
-    background-position: center;
-    padding-top: 100px;
+    padding-top: 70px;
     margin: 0 auto;
     dislay: inline-block;
     border: 1px solid #000;
     height: 90vh;
     position: relative;
+}
+.wrap{
+    background-image: url('/portfolio_FE/imges/laptop.png');
+    background-position: center;
+    height: 100%;
 }
 .introduce h2 {
     display: inline-block;
