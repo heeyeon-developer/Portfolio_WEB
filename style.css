@@ -1,15 +1,12 @@
 * {
-    margin-top: 0px;
-}
-
-h1 {
-    text-align: center;
-    height: 200px;
-    line-height: 200px;
+    margin: 0;
 }
 
 ul {
+    display: inline-block;
+    padding: 0px;
     margin: 0px;
+    text-align: right;
     list-style: none;
     position: relative;
 }
@@ -18,41 +15,94 @@ li {
     display: inline-block;
     margin: auto;
     text-align: center;
-    line-height: 70px;
-    width: 370px;
-    height: 70px;
-    margin: 30px 10px;
 }
-
-/*##################### menu #####################*/
-.menu {
-    color: black;
-}
-
-.menu li {
-    text-align: center;
-}
-
-.menu li:hover {
+/*##################### top #####################*/
+.top{
     color: white;
-    background-color: black;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+.title {
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+}
+.top ul{
+    color: white;
+    position: relative;
+    text-align: right;
+}
+.menu {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    color: black;
+    margin: 0;
+    position: relative;
+}
+.menu li {
+    line-height: 30px;
+    width: 100px;
+    height: 30px;
+    margin: 10px 10px;
+    position: relative;
+}
+.menu li:hover {
+    position: relative;
+    color: black;
+    background-color: white;
 }
 
 /*##################### introduce #####################*/
+
 .introduce {
-    border: 1px solid #000;
+    padding-top: 70px;
     dislay: inline-block;
+    border: 1px solid #000;
+    height: 90vh;
+    position: relative;
+}
+.introduce h2 {
+    text-align: left;
+    margin: 20px;
+    border: 1px solid #000;
 }
 
 .think {
-    margin-top: 20px;
-    height: 200px;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    text-align: center;
     border: 1px solid #000;
     display: inline-block;
-    line-height: 200px;
 }
 
 /*##################### skills #####################*/
+.skills{
+    margin-top: 20px;
+    height: 90vh;
+    border: 1px solid #000;
+}
 .skills li {
     display: block;
+}
+
+/*##################### study #####################*/
+.study{
+    margin-top: 20px;
+    border: 1px solid #000;
+    height: 90vh;
+}
+
+/*##################### exoerience #####################*/
+.experience {
+    margin-top: 20px;
+    border: 1px solid #000;
+    height: 90vh;
 }

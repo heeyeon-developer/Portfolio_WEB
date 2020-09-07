@@ -1,0 +1,23 @@
+@media (max-width: 768px){
+
+    /*##################### top #####################*/
+    .menu{
+        width: unset;
+    }
+    .title{
+       margin: 7px;
+    }
+    .menu li{
+        width: 80px;
+        height: 30px;
+        padding: 0;
+        text-align: center;
+        line-height: 30px;
+        margin: 2px;
+    }
+
+    /*##################### introduce #####################*/
+    .introduce{
+        padding-top: 80px;
+    }
+}
