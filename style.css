@@ -16,27 +16,28 @@ ul {
     display: inline-block;
     padding: 0px;
     margin: 0px;
-    text-align: right;
     list-style: none;
     position: relative;
 }
 
 li {
     display: inline-block;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
 /*##################### top #####################*/
-.top{
+.top {
     position: fixed;
     width: 100%;
     z-index: 1;
-    margin:0px auto;
+    margin: 0px auto;
     background-color: #fff;
     border-bottom: 1px solid rgb(182, 181, 181);
     opacity: 70%;
 }
+
 .title {
     font-size: 30px;
     display: inline-block;
@@ -48,15 +49,17 @@ li {
     line-height: 30px;
     position: relative;
 }
+
 .wrap_menu {
     display: inline-block;
     margin: 15px;
     height: 30px;
     line-height: 30px;
-    width:75vw;
+    width: 75vw;
     margin: 0 auto;
     position: relative;
-} 
+}
+
 .menu {
 
     width: 400px;
@@ -64,6 +67,7 @@ li {
     color: black;
     position: relative;
 }
+
 .menu a {
     font-size: 1.5rem;
     line-height: 30px;
@@ -72,11 +76,13 @@ li {
     margin: 10px 10px;
     position: relative;
 }
+
 .menu a:hover {
     position: relative;
     color: black;
     background-color: rgb(178, 236, 249);
 }
+
 /*##################### start #####################*/
 .background {
     position: fixed;
@@ -122,22 +128,24 @@ li {
     display: inline-block;
     text-align: center;
 }
-
 /*##################### introduce #####################*/
 .introduce {
+    width: 100vw;
     height: 100vh;
 }
-.wrap_introduce{
+
+.wrap_introduce {
     position: relative;
     width: 80vw;
     height: 70vh;
-    background-color:rgba(255,255,255,0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
     box-shadow: 10px 10px 20px gray;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .wrap_in_introduce {
     position: relative;
     width: 30%;
@@ -148,35 +156,45 @@ li {
     border-radius: 20px;
     display: inline-block;
 }
-.introduce_inside{
+
+.introduce_inside {
     position: relative;
     padding: 20px;
     opacity: 100%;
 }
-.introduce_inside h2,p{
+
+.introduce_inside h2,p {
     font-size: 50px;
     text-align: center;
 }
-.introduce_inside p{
+
+.introduce_inside p {
     font-size: 30px;
 }
-
 /*##################### skills #####################*/
-.skills{
+.skills {
+    width: 100vw;
     height: 100vh;
-    background-color: yellow;
 }
-.skills li {
-    display: block;
+.wrap_skills {
+    position: relative;
+    background-color: rgba(195, 241, 255, 0.618);
+    width: 80vw;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
 }
-
-/*##################### study #####################*/
-.study{
-    height: 100vh;
-    background-color: turquoise;
-}
-
-/*##################### exoerience #####################*/
-.experience {
-    height: 100vh;
+.skills ul li{
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    font-size: 80px;
+    line-height: 300px;
+    margin: 35px 70px;
+    box-shadow: 10px 10px 10px gray;
 }

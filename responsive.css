@@ -1,36 +1,44 @@
-@media (max-width: 768px){
+@media (max-width: 768px) {
+
     /*##################### start #####################*/
-    .img{
-        max-width: 100%;
+    .img {
+        width: 100%;
+        height: 100%;
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .start{
+
+    .start {
         font-size: 10px;
     }
-    .wrap_start{
+
+    .wrap_start {
         margin: 0;
         padding-bottom: 20px;
         max-width: 100%;
         height: 100px;
         font-size: 15px;
     }
-    .start span{
+
+    .start span {
         font-size: 15px;
     }
+
     /*##################### top #####################*/
-    .top{
+    .top {
         position: fixed;
         z-index: 1;
     }
-    .title{
+
+    .title {
         width: 100vw;
         font-size: 20px;
         padding-left: 100px;
         direction: bold;
         margin: 7px 0;
     }
-    .menu a{
+
+    .menu a {
         width: 80px;
         height: 30px;
         padding-left: 15px;
@@ -38,28 +46,47 @@
         line-height: 30px;
         margin: 2px;
     }
-    .wrap_menu{
+
+    .wrap_menu {
         width: 100vw;
     }
-    .menu{
+
+    .menu {
         width: 330px;
     }
 
     /*##################### introduce #####################*/
-    .introduce{
+    .introduce {}
 
-    }
-    .wrap_in_introduce{
+    .wrap_in_introduce {
         width: 70%;
         height: 25%;
         margin: 20px 45px;
 
     }
-    .introduce_inside h2,p {
+
+    .introduce_inside h2,
+    p {
         font-size: 20px;
         text-align: center;
     }
+
     .introduce_inside p {
         font-size: 15px;
+    }
+    /*##################### skills #####################*/
+    .wrap_skills{
+        height: 70%;
+    }
+    .skills ul li {
+        display: inline-block;
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 40px;
+        line-height: 100px;
+        box-shadow: 5px 5px 5px gray;
+        margin: 20px;
     }
 }
