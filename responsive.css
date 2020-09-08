@@ -1,11 +1,31 @@
 @media (max-width: 768px){
-
+    /*##################### start #####################*/
+    .img{
+        max-width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .start{
+        font-size: 10px;
+    }
+    .wrap_start{
+        margin: 0;
+        padding-bottom: 20px;
+        max-width: 100%;
+        height: 100px;
+        font-size: 15px;
+    }
+    .start span{
+        font-size: 15px;
+    }
     /*##################### top #####################*/
     .top{
         position: fixed;
         z-index: 1;
     }
     .title{
+        width: 100vw;
+        font-size: 20px;
         padding-left: 100px;
         direction: bold;
         margin: 7px 0;
@@ -17,6 +37,13 @@
         text-align: center;
         line-height: 30px;
         margin: 2px;
+    }
+    .wrap_menu{
+        width: 100vw;
+    }
+    .menu{
+        width: 330px;
+        padding-left: 10px;
     }
 
     /*##################### introduce #####################*/

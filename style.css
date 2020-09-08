@@ -1,8 +1,12 @@
+/* FontAwesome CDN 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 * {
     margin: 0;
 }
 html{
     scroll-behavior: smooth;
+    font-size: 10px;
 }
 a{
     text-decoration: none;
@@ -22,37 +26,85 @@ li {
     margin: auto;
     text-align: center;
 }
+/*##################### start #####################*/
+.background {
+    position: fixed;
+    display: block;
+    width : 100%;
+    height : 100%;
+    
+}
+.img{
+    width : 100%;
+    height : 100%;
+    background-image: url('https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/laptop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.start{
+    width: 100vw;
+    height: 100vh;
+    color: rgb(59, 87, 147);
+    text-align: center;
+    font-size: 2vw;
+}
+.wrap_start{
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 5px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 50px;
+}
 
+.start span{
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+}
 /*##################### top #####################*/
 .top{
     position: fixed;
     width: 100%;
     z-index: 1;
     margin:0px auto;
-    background-color: rgb(217, 248, 255);
+    background-color: #fff;
+    border-bottom: 1px solid rgb(182, 181, 181);
     opacity: 70%;
 }
 .title {
+    font-size: 30px;
     display: inline-block;
     margin: 15px;
-    width: 200px;
+    margin-left: 30px;
+    width: 20vw;
     text-align: left;
     height: 30px;
     line-height: 30px;
+    position: relative;
 }
-.wrap_menu{
-    justify-content: flex-end;
-    margin-left: auto;
+.wrap_menu {
     display: inline-block;
-
-}
+    margin: 15px;
+    height: 30px;
+    line-height: 30px;
+    width:75vw;
+    margin: 0 auto;
+    position: relative;
+} 
 .menu {
-    
+    display: inline-block;
+    width: 100vw;
     color: black;
-    margin: 0;
     position: relative;
 }
 .menu a {
+    font-size: 1.5rem;
     line-height: 30px;
     width: 100px;
     height: 30px;
@@ -66,7 +118,6 @@ li {
 }
 
 /*##################### introduce #####################*/
-
 .introduce {
     overflow: hidden;
     padding-top: 70px;
@@ -76,10 +127,13 @@ li {
     height: 90vh;
     position: relative;
 }
-.wrap{
-    background-image: url('https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/laptop.png');
-    background-position: center;
-    height: 100%;
+
+.about_wrap{
+    width: 400px;
+    height: 500px;
+    border-radius: 15% 15%;
+    background-color: rgb(225, 246, 250);
+    opacity: 80%;
 }
 .introduce h2 {
     display: inline-block;
