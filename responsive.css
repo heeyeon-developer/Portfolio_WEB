@@ -43,18 +43,23 @@
     }
     .menu{
         width: 330px;
-        padding-left: 10px;
     }
 
     /*##################### introduce #####################*/
     .introduce{
-        padding-top: 75px;
-        width:auto;
+
     }
-    .wrap {
-        background-size:contain;
-        background-position: center;
-        width: 100vh;
-        height: 100vh;
+    .wrap_in_introduce{
+        width: 70%;
+        height: 25%;
+        margin: 20px 45px;
+
+    }
+    .introduce_inside h2,p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .introduce_inside p {
+        font-size: 15px;
     }
 }
