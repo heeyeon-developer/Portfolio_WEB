@@ -103,15 +103,30 @@
 
     }
     /*##################### experience #####################*/
-    .experience ul li {
-        display: inline-block;
-        background-color: white;
-        width: 30vw;
-        height: 30vh;
-        border-radius: 10px;
+    .experience_info {
+        display: block;
+        margin: 0 auto;
+        margin-top: 7%;
+        width: 80%;
+        height: 90%;
         font-size: 20px;
-        line-height: 100px;
-        box-shadow: 5px 5px 5px gray;
-        margin-left: 15px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    .btn {
+        position: relative;
+        left: 35%;
+        width: 30%;
+        text-align: center;
+    }
+    .btn label {
+        cursor: pointer;
+        width: 10px;
+        height: 10px;
+        background-color: #000;
+        display: inline-block;
+        border-radius: 50%;
+        margin: 3px;
+        position: relative;
     }
 }

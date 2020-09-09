@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heeyeon's FE Portfolio</title>
+    <!--Slick.js-->
+    <script src="js/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <!-- Custom JS & CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
@@ -49,7 +54,7 @@
                 <li><img src="https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/HTML5_Logo_512.png"></li>
                 <li><img src="https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/css3_logo.png" style="width:75%"></li>
                 <li><img src="https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/javascript_logo.png"></li>
-                <li>CSS</li>
+                <li>NODE.JS</li>
                 <li>REACT</li>
                 <li>VUE</li>
             </ul>
@@ -66,13 +71,60 @@
     </div>
     <div class="experience" id="menu4">
         <div class="wrap_experience">
-            <ul>
-                <li>알고리즘 스터디</li>
-                <li>연구실</li>
-                <li>대외활동</li>
-                <li>프로젝트</li>
-            </ul>
+            <input type="radio" name="tabmenu" id="tab1" checked>
+            <input type="radio" name="tabmenu" id="tab2">
+            <input type="radio" name="tabmenu" id="tab3">
+            <input type="radio" name="tabmenu" id="tab4">
+            <div class="tabs">
+                <div class="tab">
+                    <div class="experience_info">
+                        <h2>알고리즘 스터디</h2>
+                        <p>
+                            기간: ~~~~<br>
+                            활동 내용: ~~~<br>
+                            배운점 : ~~~~<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="experience_info">
+                        <h2>연구실</h2>
+                        <p>
+                            기간: ~~~~<br>
+                            활동 내용: ~~~<br>
+                            배운점 : ~~~~<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="experience_info">
+                        <h2>window10 대외활동</h2>
+                        <p>
+                            기간: ~~~~<br>
+                            활동 내용: ~~~<br>
+                            배운점 : ~~~~<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="experience_info">
+                        <h2>프로젝트</h2>
+                        <p>
+                            기간: ~~~~<br>
+                            활동 내용: ~~~<br>
+                            배운점 : ~~~~<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <label for="tab1"></label>
+                <label for="tab2"></label>
+                <label for="tab3"></label>
+                <label for="tab4"></label>
+            </div>
         </div>
+        
     </div>
 </body>
 
