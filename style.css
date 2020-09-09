@@ -1,9 +1,13 @@
 /* FontAwesome CDN 4.7 */
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
-* {
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body {
     margin: 0;
+    font-family: 'Jua',sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
     font-size: 10px;
@@ -79,8 +83,7 @@ li {
 
 .menu a:hover {
     position: relative;
-    color: black;
-    background-color: rgb(178, 236, 249);
+    color: rgb(157, 228, 252);
 }
 
 /*##################### start #####################*/
@@ -133,37 +136,31 @@ li {
     width: 100vw;
     height: 100vh;
 }
-
 .wrap_introduce {
     position: relative;
     width: 80vw;
     height: 70vh;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 20px rgb(91, 90, 90);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.wrap_in_introduce {
-    position: relative;
-    width: 30%;
-    height: 80%;
-    margin: 60px 20px;
-    background-color: #fff;
-    box-shadow: 5px 5px 10px gray;
-    border-radius: 20px;
+.introduce_inside{
+    position: absolute;
     display: inline-block;
+    width: 80%;
+    height: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    z-index: 0.8;
 }
-
-.introduce_inside {
-    position: relative;
-    padding: 20px;
-    opacity: 100%;
-}
-
 .introduce_inside h2,p {
+    margin-top: 20px;
     font-size: 50px;
     text-align: center;
 }
@@ -178,6 +175,41 @@ li {
 }
 .wrap_skills {
     position: relative;
+    /* background-color: rgba(195, 241, 255, 0.618); */
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 10px gray; */
+}
+.skills ul li{
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    font-size: 3vw;
+    line-height: 250px;
+    margin: 0vw 10vw 10vw 5vw;
+    box-shadow: 10px 10px 10px gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+}
+.skills ul li img{
+    width: 250px;
+    height: 250px;
+}
+/*##################### study #####################*/
+.study {
+    width: 100vw;
+    height: 100vh;
+}
+.wrap_study {
+    position: relative;
     background-color: rgba(195, 241, 255, 0.618);
     width: 80vw;
     height: 80vh;
@@ -187,14 +219,42 @@ li {
     border-radius: 10px;
     box-shadow: 10px 10px 10px gray;
 }
-.skills ul li{
+.wrap_study ul li{
     display: inline-block;
     background-color: white;
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 70vh;
     border-radius: 20px;
-    font-size: 80px;
+    font-size: 50px;
     line-height: 300px;
-    margin: 35px 70px;
+    margin: 35px 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+/*##################### experience #####################*/
+.experience {
+    width: 100vw;
+    height: 100vh;
+}
+.wrap_experience {
+    position: relative;
+    background-color: rgba(195, 241, 255, 0.618);
+    width: 80vw;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.wrap_experience ul li {
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: white;
+    width: 35vw;
+    height: 30vh;
+    border-radius: 20px;
+    font-size: 50px;
+    margin: 35px 20px;
     box-shadow: 10px 10px 10px gray;
 }

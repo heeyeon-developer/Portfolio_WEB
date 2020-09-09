@@ -29,28 +29,25 @@
         position: fixed;
         z-index: 1;
     }
-
     .title {
-        width: 100vw;
+        display: block;
+        width: 60vw;
         font-size: 20px;
-        padding-left: 100px;
         direction: bold;
-        margin: 7px 0;
+        margin: 10px auto;
     }
 
     .menu a {
-        width: 80px;
+        display: inline-block;
+        width: 50px;
         height: 30px;
-        padding-left: 15px;
         text-align: center;
         line-height: 30px;
-        margin: 2px;
+        font-size: 10px;
     }
-
     .wrap_menu {
         width: 100vw;
     }
-
     .menu {
         width: 330px;
     }
@@ -58,19 +55,18 @@
     /*##################### introduce #####################*/
     .introduce {}
 
-    .wrap_in_introduce {
+    .wrap_introduce {
         width: 70%;
-        height: 25%;
-        margin: 20px 45px;
-
+        height: 70%;
     }
-
+    .introduce_inside{
+        padding: 10px;
+    }
     .introduce_inside h2,
     p {
         font-size: 20px;
         text-align: center;
     }
-
     .introduce_inside p {
         font-size: 15px;
     }
@@ -84,9 +80,38 @@
         width: 100px;
         height: 100px;
         border-radius: 10px;
-        font-size: 40px;
+        font-size: 20px;
+        line-height: 100px;
+        box-shadow: 5px 5px 5px gray;
+        margin-right: 30px;
+    }
+    .skills ul li img {
+        width: 100px;
+        height: 100px;
+    }
+    /*##################### study #####################*/
+    .study ul li{
+        display: inline-block;
+        background-color: white;
+        width: 70vw;
+        height: 20vh;
+        border-radius: 10px;
+        font-size: 20px;
         line-height: 100px;
         box-shadow: 5px 5px 5px gray;
         margin: 20px;
+
+    }
+    /*##################### experience #####################*/
+    .experience ul li {
+        display: inline-block;
+        background-color: white;
+        width: 30vw;
+        height: 30vh;
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 100px;
+        box-shadow: 5px 5px 5px gray;
+        margin-left: 15px;
     }
 }
