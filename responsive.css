@@ -2,13 +2,12 @@
 
     /*##################### top #####################*/
     .top {
-        border: 1px solid #000;
         position: fixed;
         z-index: 1;
     }
     .title {
         display: block;
-        width: 60vw;
+        width: 55vw;
         font-size: 20px;
         margin: 10px auto;
     }
@@ -24,14 +23,14 @@
     }
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 8vh;
+        margin-top: 10vh;
         font-size: 1.5rem;
     }
     /*##################### introduce #####################*/
     .wrap_introduce {
         width: 70vw;
         height: 50vh;
-        margin-top: 8vh;
+        margin-top: 4vh;
     }
     .introduce_inside{
         width: 60vw;
@@ -63,24 +62,29 @@
         height: 100%;
     }
     /*##################### study #####################*/
+    .wrap_study{
+        width: 80vw;
+        height: 67vh;
+        margin-top: 0vh;
+    }
     .wrap_study ul li{
-        display: inline-block;
-        background-color: white;
         width: 70vw;
         height: 20vh;
         border-radius: 10px;
         font-size: 1.5rem;
         line-height: 10vh;
-        margin-top: 5vh;
+        margin-top: 1.5vh;
         margin-left: 5vw;
     }
     /*##################### experience #####################*/
     .wrap_experience{
+        margin-top: 0vh;
         padding-top: 7vh;
     }
     .experience_info {
+        margin: 0;
         margin-top: 1vh;
-        margin-left: 5vw;
-        width: 70vw;
+        margin-left: 10vw;
+        width: 57vw;
     }
 }
