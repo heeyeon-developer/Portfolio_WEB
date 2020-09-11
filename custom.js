@@ -5,11 +5,11 @@ window.addEventListener('scroll', function () {
 
     if (scrollY > 50) {
         start.classList.add('active');
-        // background.classList.add('active2');
+        background.classList.add('active2');
 
     } else {
         start.classList.remove('active');
-        // background.classList.remove('active2');
+        background.classList.remove('active2');
     }
 
 });
