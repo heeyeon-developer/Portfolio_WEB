@@ -247,7 +247,7 @@ li {
     overflow: hidden;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 0.5vw 0.5vw 1vw rgb(192, 192, 192);
     padding-top: 10vh;
 }
 .experience_info{
@@ -257,4 +257,5 @@ li {
     margin-top: 5vh;
     margin-left: 15vw;
     width: 50vw;
+    box-shadow: 0.5vw 0.5vw 1vw rgb(192, 192, 192);
 }
