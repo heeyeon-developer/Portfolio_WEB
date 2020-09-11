@@ -1,19 +1,14 @@
-@media (max-width: 768px) {
+@media (max-width: 375px) {
 
     /*##################### top #####################*/
-    .top {
-        position: fixed;
-        z-index: 1;
-    }
     .title {
         display: block;
         width: 55vw;
-        font-size: 20px;
-        margin: 10px auto;
+        font-size: 2rem;
+        margin: 1.5vw auto;
     }
     .menu {
         width: 100vw;
-        color: black;
     }
     .menu a {
         position: relative;
@@ -23,7 +18,7 @@
     }
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 10vh;
+        margin-top: 8vh;
         font-size: 1.5rem;
     }
     /*##################### introduce #####################*/
@@ -86,5 +81,101 @@
         margin-top: 1vh;
         margin-left: 11vw;
         width: 57vw;
+    }
+}
+/* ########################################################################### */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*##################### top #####################*/
+    .title {
+        display: block;
+        width: 30vw;
+        font-size: 3rem;
+        margin: 2vw auto;
+    }
+    .menu {
+        width: 100vw;
+    }
+    .menu a {
+        position: relative;
+        font-size: 2rem;
+        width: 10vw;
+        margin-left: 12.5vw;
+    }
+
+    /*##################### start #####################*/
+    .wrap_start {
+        margin-top: 10vh;
+        font-size: 4rem;
+    }
+    /*##################### introduce #####################*/
+    .wrap_introduce {
+        width: 70vw;
+        height: 50vh;
+        margin-top: 4vh;
+    }
+    .introduce_inside {
+        width: 60vw;
+        height: 30vh;
+    }
+    .introduce_inside h2,p {
+        margin-top: 2vh;
+        font-size: 4rem;
+        text-align: center;
+    }
+    .introduce_inside p {
+        font-size: 2.5rem;
+    }
+    /*##################### skills #####################*/
+    .do_skills {
+        height: 15vh;
+        font-size: 2.5rem;
+    }
+    .wrap_skills {
+        width: 80vw;
+        height: 70vh;
+    }
+    .skills ul li {
+        width: 21vw;
+        height: 21vw;
+        line-height: 100px;
+        margin-right: 4vw;
+    }
+
+    .skills ul li img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*##################### study #####################*/
+    .wrap_study {
+        width: 80vw;
+        height: 67vh;
+        margin-top: 0vh;
+    }
+
+    .wrap_study ul li {
+        width: 70vw;
+        height: 20vh;
+        border-radius: 10px;
+        font-size: 2.5rem;
+        line-height: 10vh;
+        margin-top: 1.5vh;
+        margin-left: 5vw;
+    }
+
+    /*##################### experience #####################*/
+    .wrap_experience {
+        margin-top: 0vh;
+        width: 75vw;
+        height: 40vh;
+        padding-top: 7vh;
+    }
+    .experience_info {
+        margin: 0;
+        margin-top: 1vh;
+        margin-left: 12vw;
+        width: 50vw;
+        font-size: 2rem;
     }
 }
