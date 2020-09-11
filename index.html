@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heeyeon's FE Portfolio</title>
+    <script src="js/jquery-2.1.4.js"></script>
+    <!-- Page Scroll Effects JS & CSS -->
+    <script src="js/velocity/modernizr.js"></script>
+    <script src="js/velocity/velocity.min.js"></script>
+    <script src="js/velocity/velocity.ui.min.js"></script>
+    <script src="js/velocity/main.js"></script>
+    <link rel="stylesheet" href="js/velocity/velocity.css">
+    <!-- Smooth Scrolling -->
+    <script src="/portfolio_FE/js/jquery.scrollTo.min.js"></script>
     <!--Slick.js-->
     <script src="js/slick/slick.min.js"></script>
     <link rel="stylesheet" href="js/slick/slick-theme.css">
@@ -12,18 +21,17 @@
     <!-- Custom JS & CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="custom.js"></script>
 </head>
 
 <body>
     <div class="top">
         <div class="title"><a href="#"><b>Heeyeon's FE Portfolio</b></a></div>
-        <div class="wrap_menu">
-                <div class="menu">
-                    <a href="#menu1">INTRODUCE</a>
-                    <a href="#menu2">SKILLS</a>
-                    <a href="#menu3">STUDY</a>
-                    <a href="#menu4">EXPERIENCE</a>
-                </div>
+            <div class="menu">
+                <a href="#menu1">INTRODUCE</a>
+                <a href="#menu2">SKILLS</a>
+                <a href="#menu3">STUDY</a>
+                <a href="#menu4">EXPERIENCE</a>
             </div>
         </div>
     </div>
@@ -49,14 +57,18 @@
         </div>
     </div>
     <div class="skills" id="menu2">
+        <div class="do_skills">
+            <div>꾸준한 연습</div>
+            여러 언어를 배우기 위해 꾸준히 연습을 하고 있습니다.
+        </div>
         <div class="wrap_skills">
             <ul>
                 <li><img src="https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/HTML5_Logo_512.png"></li>
                 <li><img src="https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/css3_logo.png" style="width:75%"></li>
                 <li><img src="https://raw.githubusercontent.com/heeyeon-developer/Portfolio_WEB/master/portfolio_FE/imges/javascript_logo.png"></li>
-                <li>NODE.JS</li>
-                <li>REACT</li>
-                <li>VUE</li>
+                <li><img src="/imges/nodejs.png"></li>
+                <li><img src="/imges/react.png"></li>
+                <li><img src="/imges/vue.png"></li>
             </ul>
         </div>
     </div>
@@ -71,60 +83,34 @@
     </div>
     <div class="experience" id="menu4">
         <div class="wrap_experience">
-            <input type="radio" name="tabmenu" id="tab1" checked>
-            <input type="radio" name="tabmenu" id="tab2">
-            <input type="radio" name="tabmenu" id="tab3">
-            <input type="radio" name="tabmenu" id="tab4">
-            <div class="tabs">
-                <div class="tab">
-                    <div class="experience_info">
-                        <h2>알고리즘 스터디</h2>
-                        <p>
-                            기간: ~~~~<br>
-                            활동 내용: ~~~<br>
-                            배운점 : ~~~~<br>
-                        </p>
-                    </div>
+            <div class="experience_info">
+                <div>
+                    알고리즘 스터디<br>
+                    기간 : 2016.03 ~2016.12<br>
+                    배운점 : 코드를 작성할때 알고리즘의 효율성을 생각하게 되었고, 다양한 풀이방법을 알게 되었습니다.
                 </div>
-                <div class="tab">
-                    <div class="experience_info">
-                        <h2>연구실</h2>
-                        <p>
-                            기간: ~~~~<br>
-                            활동 내용: ~~~<br>
-                            배운점 : ~~~~<br>
-                        </p>
-                    </div>
+                <div>
+                    알고리즘 스터디<br>
+                    기간 : 2016.03 ~2016.12<br>
+                    배운점 : 코드를 작성할때 알고리즘의 효율성을 생각하게 되었고, 다양한 풀이방법을 알게 되었습니다.
                 </div>
-                <div class="tab">
-                    <div class="experience_info">
-                        <h2>window10 대외활동</h2>
-                        <p>
-                            기간: ~~~~<br>
-                            활동 내용: ~~~<br>
-                            배운점 : ~~~~<br>
-                        </p>
-                    </div>
+                <div>
+                    알고리즘 스터디<br>
+                    기간 : 2016.03 ~2016.12<br>
+                    배운점 : 코드를 작성할때 알고리즘의 효율성을 생각하게 되었고, 다양한 풀이방법을 알게 되었습니다.
                 </div>
-                <div class="tab">
-                    <div class="experience_info">
-                        <h2>프로젝트</h2>
-                        <p>
-                            기간: ~~~~<br>
-                            활동 내용: ~~~<br>
-                            배운점 : ~~~~<br>
-                        </p>
-                    </div>
+                <div>
+                    알고리즘 스터디<br>
+                    기간 : 2016.03 ~2016.12<br>
+                    배운점 : 코드를 작성할때 알고리즘의 효율성을 생각하게 되었고, 다양한 풀이방법을 알게 되었습니다.
                 </div>
-            </div>
-            <div class="btn">
-                <label for="tab1"></label>
-                <label for="tab2"></label>
-                <label for="tab3"></label>
-                <label for="tab4"></label>
+                <div>
+                    알고리즘 스터디<br>
+                    기간 : 2016.03 ~2016.12<br>
+                    배운점 : 코드를 작성할때 알고리즘의 효율성을 생각하게 되었고, 다양한 풀이방법을 알게 되었습니다.
+                </div>
             </div>
         </div>
-        
     </div>
 </body>
 
