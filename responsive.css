@@ -211,8 +211,8 @@
 
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 10vh;
-        font-size: 3rem;
+        margin-top: 12vh;
+        font-size: 2rem;
     }
 
     /*##################### introduce #####################*/
@@ -313,8 +313,8 @@
 
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 10vh;
-        font-size: 4rem;
+        margin-top: 9vh;
+        font-size: 3.3rem;
     }
     /*##################### introduce #####################*/
     .wrap_introduce {
@@ -410,7 +410,6 @@
 
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 28vh;
         font-size: 3.5rem;
     }
 

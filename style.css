@@ -106,12 +106,12 @@ li {
     opacity:0;
 }
 .wrap_start {
-    display: inline-block;
+    display: block;
     color: rgb(59, 87, 147);
     text-align: center;
     width: 40vw;
-    height: 40vw;
-    margin-top: 30vh;
+    height: 30vh;
+    margin-top: 10vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
