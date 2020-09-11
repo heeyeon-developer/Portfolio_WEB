@@ -4,7 +4,7 @@
         display: block;
         width: 50vw;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 1.5vw auto;
     }
 
@@ -16,12 +16,12 @@
         position: relative;
         font-size: 0.8rem;
         width: 10vw;
-        margin-left: 8vw;
+        margin-left: 6vw;
     }
 
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 8vh;
+        margin-top: 12vh;
         font-size: 1.2rem;
     }
 
@@ -109,7 +109,7 @@
         display: block;
         width: 50vw;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.3rem;
         margin: 1.5vw auto;
     }
     .menu {
@@ -119,12 +119,12 @@
         position: relative;
         font-size: 1rem;
         width: 10vw;
-        margin-left: 11vw;
+        margin-left: 9vw;
     }
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 7.5vh;
-        font-size: 1.5rem;
+        margin-top: 13vh;
+        font-size: 1.3rem;
     }
     /*##################### introduce #####################*/
     .wrap_introduce {
@@ -313,7 +313,7 @@
 
     /*##################### start #####################*/
     .wrap_start {
-        margin-top: 9vh;
+        margin-top: 11vh;
         font-size: 3.3rem;
     }
     /*##################### introduce #####################*/
@@ -344,8 +344,8 @@
         height: 70vh;
     }
     .skills ul li {
-        width: 21vw;
-        height: 21vw;
+        width: 17vw;
+        height: 17vw;
         line-height: 100px;
         margin-right: 4vw;
     }
