@@ -15,7 +15,7 @@ window.addEventListener('scroll', function () {
 });
 
 $(function () {
-    $('.experience_info').slick({
+    $('.experiences_info').slick({
             dots: true,
             infinite: false,
             speed: 300,
