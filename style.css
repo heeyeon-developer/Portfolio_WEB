@@ -201,12 +201,12 @@ li {
     height: 100%;
 }
 /*##################### study #####################*/
-.study {
+.projects {
     width: 100vw;
     height: 100vh;
     border: 1px solid transparent;
 }
-.wrap_study {
+.wrap_projects {
     position: relative;
     background-color: rgba(240, 240, 240, 0.7);
     width: 80vw;
@@ -218,7 +218,7 @@ li {
     border-radius: 10px;
     box-shadow: 0.5vw 0.5vw 1vw rgb(192, 192, 192);
 }
-.wrap_study ul li{
+.wrap_projects ul li{
     display: inline-block;
     background-color: white;
     width: 23vw;
@@ -230,13 +230,13 @@ li {
     margin-left: 2.5vw;
     box-shadow: 0.5vw 0.5vw 1vw rgb(192, 192, 192);
 }
-/*##################### experience #####################*/
-.experience {
+/*##################### experiences #####################*/
+.experiences {
     width: 100vw;
     height: 100vh;
     border: 1px solid transparent;
 }
-.wrap_experience {
+.wrap_experiences {
     position: relative;
     background-color: rgba(240, 240, 240, 0.7);
     width: 80vw;
@@ -250,7 +250,7 @@ li {
     box-shadow: 0.5vw 0.5vw 1vw rgb(192, 192, 192);
     padding-top: 10vh;
 }
-.experience_info{
+.experiences_info{
     display: block;
     background-color: #fff;
     border-radius: 10px;
