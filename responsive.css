@@ -3,7 +3,6 @@
     .title {
         display: inline-block;
         width: 21vw;
-        font-size: 2rem;
         margin: 1vw auto;
         margin-left: 1vw;
     }
@@ -16,36 +15,48 @@
         position: relative;
         font-size: 1.7rem;
         width: 10vw;
-        margin-left: 1.3vw;
+        margin-left: 1vw;
     }
 
     /*##################### start #####################*/
-    .wrap_start {
-        font-size: 3.5rem;
-    }
 
     /*##################### introduce #####################*/
     .wrap_introduce {
         width: 70vw;
-        height: 50vh;
+        height: 60vh;
         margin-top: 4vh;
     }
 
     .introduce_inside {
         width: 60vw;
-        height: 30vh;
+        height: 40vh;
+        border: 1px solid #000;
     }
 
     .introduce_inside h2,
     p {
         margin-top: 2vh;
-        font-size: 3rem;
+        font-size: 4vh;
         text-align: center;
     }
 
     .introduce_inside p {
-        font-size: 2rem;
+        margin-top: 1vh;
+        font-size: 2.5vh;
+        border: 1px solid #000;
     }
+    .introduce_inside a{
+    display: block;
+    width: 60vw;
+    height: 5vh;
+}
+
+    .introduce_inside img {
+    display: block;
+    width: 6vh;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
 
     /*##################### skills #####################*/
     .do_skills {
@@ -58,9 +69,9 @@
     }
 
     .skills ul li {
-        width: 15vw;
-        height: 15vw;
-        margin: 4.5vh 5.5vw;
+        width: 12vw;
+        height: 12vw;
+        margin: 5vh 7vw;
     }
 
     .skills ul li img {
@@ -74,17 +85,42 @@
         height: 67vh;
         margin-top: 0vh;
     }
-
     .wrap_projects ul li {
         width: 70vw;
         height: 20vh;
         border-radius: 10px;
         font-size: 1.5rem;
-        line-height: 10vh;
+        line-height: 3vh;
         margin-top: 1.5vh;
         margin-left: 5vw;
+        text-align: justify;
+        vertical-align: bottom;
+    }
+    .wrap_projects ul li div{
+        vertical-align: bottom;
     }
 
+    .projects_link {
+        display: inline-block;
+        border: 1px solid #000;
+        width: 30vh;
+        height: 20vh;
+        margin:0;
+        margin-left: 2vw;
+    }
+    .projects_link img{
+        width: 100%;
+    }
+        .projects_detail{
+        display: inline-block;
+        width: 35vw;
+        border: 1px solid #000;
+        height: 20vh;
+        font-size: 2vh;
+        line-height: 2.5vh;
+        margin: 0;
+        margin-left: 2vw;
+    }
     /*##################### experiences #####################*/
     .wrap_experiences {
         margin-top: 0vh;
@@ -125,7 +161,6 @@
     /*##################### start #####################*/
     .wrap_start {
         margin-top: 11vh;
-        font-size: 3.3rem;
     }
 
     /*##################### introduce #####################*/
@@ -142,19 +177,24 @@
 
     .introduce_inside h2,
     p {
-        margin-top: 2vh;
-        font-size: 4rem;
+        margin: 0;
+        margin-top: 1.5vh;
         text-align: center;
     }
-
     .introduce_inside p {
-        font-size: 2.5rem;
-    }
+        margin-top: 1vh;
+    font-size: 2vh;
+}
+    .introduce_inside img {
+    display: block;
+    width: 5vh;
+    margin: 0 auto;
+}
 
     /*##################### skills #####################*/
     .do_skills {
         height: 15vh;
-        font-size: 2.5rem;
+        font-size: 2vh;
     }
 
     .wrap_skills {
@@ -166,7 +206,7 @@
         width: 17vw;
         height: 17vw;
         line-height: 100px;
-        margin-right: 4vw;
+        margin:  2.5vh 11vw;
     }
 
     .skills ul li img {
@@ -190,12 +230,33 @@
         margin-top: 1.5vh;
         margin-left: 5vw;
     }
+    .projects_link {
+        display: inline-block;
+        border: 1px solid #000;
+        width: 20vh;
+        height: 15vh;
+        margin:0;
+        margin-left: 2vw;
+    }
+    .projects_link img{
+        width: 100%;
+    }
+        .projects_detail{
+        display: inline-block;
+        width: 25vw;
+        border: 1px solid #000;
+        height: 15vh;
+        font-size: 2vh;
+        line-height: 2.5vh;
+        margin: 0;
+        margin-left: 2vw;
+    }
 
     /*##################### experiences #####################*/
     .wrap_experiences {
         margin-top: 0vh;
         width: 75vw;
-        height: 40vh;
+        height: 55vh;
         padding-top: 7vh;
     }
 
@@ -203,7 +264,8 @@
         margin-top: -0.6vh;
         margin-left: 12vw;
         width: 50vw;
-        font-size: 2rem;
+        font-size: 2vh;
+        line-height: 3vh;
     }
 }
 /* ########################################################################### */
@@ -258,7 +320,8 @@
     }
 
     /*##################### skills #####################*/
-    .do_skills {}
+    .do_skills {
+    }
 
     .wrap_skills {
         width: 80vw;
@@ -357,15 +420,19 @@
     }
 
     .introduce_inside p {
-        font-size: 1.5rem;
+        font-size: 1.7vh;
     }
 
     /*##################### skills #####################*/
-    .do_skills {}
+    .do_skills {
+        top: 17vh;
+        font-size: 1.5vh;
+    }
 
     .wrap_skills {
         width: 80vw;
         height: 70vh;
+        transform: translate(-50%, -40%);
     }
 
     .skills ul li {
@@ -401,6 +468,7 @@
     .wrap_experiences {
         margin-top: 0vh;
         padding-top: 7vh;
+        height: 70vh;
     }
 
     .experiences_info {
@@ -408,6 +476,7 @@
         margin-top: 1vh;
         margin-left: 11vw;
         width: 57vw;
+        font-size: 1.5vh;
     }
 }
 /* ########################################################################### */
