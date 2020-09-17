@@ -149,6 +149,10 @@ li {
     border-radius: 10px;
     z-index: 0.8;
 }
+.introduce_inside img:hover{
+    border-radius: 50%;
+    box-shadow: 0vw 0vw 1vw rgb(192, 192, 192);
+}
 .introduce_inside h2,p {
     margin-top: 4vh;
     font-size: 5rem;
@@ -157,11 +161,6 @@ li {
 .introduce_inside p {
     margin-top: 2vh;
     font-size: 2.5rem;
-}
-.introduce_inside a{
-    display: block;
-    width: 70vw;
-    height: 10vh;
 }
 .introduce_inside img {
     display: block;
@@ -249,6 +248,7 @@ li {
 }
 .projects_link img{
     width: 100%;
+    height: 100%;
 }
 .projects_detail{
     width: 20vw;
