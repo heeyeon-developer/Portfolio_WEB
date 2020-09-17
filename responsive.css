@@ -30,7 +30,6 @@
     .introduce_inside {
         width: 60vw;
         height: 40vh;
-        border: 1px solid #000;
     }
 
     .introduce_inside h2,
@@ -43,7 +42,6 @@
     .introduce_inside p {
         margin-top: 1vh;
         font-size: 2.5vh;
-        border: 1px solid #000;
     }
     .introduce_inside a{
     display: block;
@@ -54,7 +52,6 @@
     .introduce_inside img {
     display: block;
     width: 6vh;
-    border: 1px solid #000;
     margin: 0 auto;
 }
 
@@ -102,7 +99,6 @@
 
     .projects_link {
         display: inline-block;
-        border: 1px solid #000;
         width: 30vh;
         height: 20vh;
         margin:0;
@@ -114,7 +110,6 @@
         .projects_detail{
         display: inline-block;
         width: 35vw;
-        border: 1px solid #000;
         height: 20vh;
         font-size: 2vh;
         line-height: 2.5vh;
@@ -232,7 +227,6 @@
     }
     .projects_link {
         display: inline-block;
-        border: 1px solid #000;
         width: 20vh;
         height: 15vh;
         margin:0;
@@ -244,7 +238,6 @@
         .projects_detail{
         display: inline-block;
         width: 25vw;
-        border: 1px solid #000;
         height: 15vh;
         font-size: 2vh;
         line-height: 2.5vh;
