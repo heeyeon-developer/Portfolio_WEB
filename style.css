@@ -249,7 +249,7 @@ li {
 .projects_link img{
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .projects_link img:hover{
     box-shadow: 0vw 0vw 2.5vw rgb(175, 234, 255);
